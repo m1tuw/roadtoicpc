@@ -11,7 +11,7 @@
 #define int long long
 using namespace std;
 
-// ===== DSU con unión segun el tamaño de los árboles =====
+// ===== DSU con uniÃ³n segun el tamaÃ±o de los Ã¡rboles =====
 // modificar sg el limite del problema
 vector<int> parent(1e5+1, 0);
 vector<int> sizes(1w5+1, 0);
@@ -43,7 +43,7 @@ void make_set(int v){
 // =======================================================
 
 signed main(){
-    // línea magica
+    // lÃ­nea magica
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     //
