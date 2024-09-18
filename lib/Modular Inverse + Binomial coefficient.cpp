@@ -1,4 +1,5 @@
 // binomial_coefficients bc(maxn, mod)
+// calculate n choose k: bc.c(n, k)
 struct binomial_coefficients{
     int MAXN, mod;
     vi fact;
