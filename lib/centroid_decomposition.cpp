@@ -4,7 +4,7 @@ vector<int> adj[maxn];
 int subtree_size[maxn];
 
 // usar get_subtree_size dsp de armar adj
-// y luego get_centroid
+// y luego get_centroid 
 
 int get_subtree_size(int node, int parent = -1){
 	int &res = subtree_size[node];
